@@ -24,7 +24,7 @@ export default function Header({}){
           <Text style={styles.subTitle}>Orange Gat</Text>
           <Text>Ver usuario</Text>
         </View>
-        <View><Pressable><Image style={styles.pfp} source={require("../assets/adaptive-icon.png")} /></Pressable></View>
+        <View><Pressable><Image style={styles.pfp} source={require("../assets/pfp_red.png")} /></Pressable></View>
       </View> 
     </View>
   )
@@ -51,10 +51,10 @@ const styles = {
     fontWeight: "800"
   },
   pfp: {
-    height: "50px",
-    width: "50px",
-    borderWidth: "1px",
-    borderRadius: "30px",
+    height: "60px",
+    width: "60px",
+    borderWidth: "2px",
+    borderRadius: "50px",
   },
   linkContainer: {
     flex: 1,
